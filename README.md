@@ -1,4 +1,4 @@
-BLOG DJANGO NOTES
+# BLOG DJANGO NOTES
 # Heroku Deployment
 - heroku login
 - heroku create $name
