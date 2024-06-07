@@ -3,7 +3,7 @@
 - heroku login
 - heroku create $name
 - heroku git:remote -a $name
-- pipenv install whitenoise==3.3.1
+- pipenv install whitenoise
 ## SETTINGS FILE
 - Add 'whitenoise.runserver_nostatic' in INSTALLED_APPS (must be above the built in static files)
 - Add 'whitenoise.middleware.WhiteNoiseMiddleware' in MIDDLEWARE (on the third line)
