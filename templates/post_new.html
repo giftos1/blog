@@ -3,7 +3,7 @@
 {#csrf_token protects our form from cross-site scripting attacks. Use it for all forms#}
 {% block content %}
 	<h1>New post</h1>
-    <form action="" method="post">{% csrf_token %}{{ form.as_p }}
+    <form method="post">{% csrf_token %}{{ form.as_p }}
         <input type="submit" value="save" />
     </form>
 {% endblock content %}
